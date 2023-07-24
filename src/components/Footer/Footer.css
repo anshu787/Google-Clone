@@ -1,0 +1,25 @@
+footer {
+    background-color: #171717;
+    height: 7rem;
+    width: auto;
+    margin-top: 9.4rem;
+}
+.bottom{
+    display: flex;
+   justify-content: space-between;
+   padding: 0px 30px 1px 0px;
+   border-top: 0.5px solid gray;
+}
+.itematleft{
+    display: inline-flex;
+}
+.itematright{
+    display: inline-flex;
+}
+
+.top{
+    padding-top: 1px;
+}
+.cty{
+    color: gray;
+}

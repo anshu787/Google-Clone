@@ -1,0 +1,45 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+  
+}
+.nav_links{
+    list-style: none;
+
+}
+.nav_item_right{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: 3rem;
+    line-height: 40px;
+}
+a{
+    color: rgba(255, 255, 255, 0.87);;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.signin_button{
+    background: #8ab4f8;
+    color: black;
+    box-shadow: none;
+    height: 36px;
+    min-width: 96px;
+    border: 1px transparent;
+    border-radius: 8px;
+}
+.signin_button:hover{
+    background: linear-gradient(140deg,#ff006a 20%, #3b00a5 80%);;
+}
+.new{
+    
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+}
